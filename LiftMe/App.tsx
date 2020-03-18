@@ -1,19 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import LandingPage from './src/components/LandingPage/LandingPage';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <LandingPage></LandingPage>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
